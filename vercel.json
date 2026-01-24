@@ -1,0 +1,40 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "devCommand": "npm run dev",
+  "installCommand": "npm install"
+}
+```
+
+### 4. Enregistrer le fichier
+
+1. Descendez en bas de la page
+2. Dans la section "Commit new file" :
+   - Laissez le message par défaut ou écrivez : "Add vercel.json configuration"
+3. Cliquez sur le bouton vert **"Commit new file"**
+
+### 5. Attendre le déploiement
+
+- Vercel va automatiquement détecter ce nouveau fichier
+- Il va redéployer votre site (ça prend 1-2 minutes)
+- Vous recevrez peut-être un email de Vercel quand c'est terminé
+
+### 6. Vérifier que ça fonctionne
+
+1. Retournez sur votre dashboard Vercel
+2. Attendez que le déploiement soit terminé (statut "Ready")
+3. Cliquez sur "Visit" pour voir votre site
+
+---
+
+## Résumé visuel :
+```
+GitHub → Add file → Create new file
+         ↓
+Nom du fichier : vercel.json
+         ↓
+Contenu : [le code JSON ci-dessus]
+         ↓
+Commit new file
+         ↓
+Vercel redéploie automatiquement ✅
