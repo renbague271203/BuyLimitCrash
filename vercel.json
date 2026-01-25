@@ -1,3 +1,3 @@
-{
-  "framework": "vite"
+json{
+  "rewrites": [{ "source": "/(.*)", "destination": "/" }]
 }
